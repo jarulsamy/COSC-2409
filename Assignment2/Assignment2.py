@@ -16,12 +16,7 @@ bill_map = {
     "One": 1,
 }
 
-coin_map = {
-    "Quarters": 25,
-    "Dimes": 10,
-    "Nickels": 5,
-    "Pennies": 1
-}
+coin_map = {"Quarters": 25, "Dimes": 10, "Nickels": 5, "Pennies": 1}
 
 # Calculate bills
 remainder = dollars

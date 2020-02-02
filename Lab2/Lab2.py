@@ -1,8 +1,7 @@
 # Joshua Arulsamy
 # Lab 2
-# 1/24/2020
+# 01/24/2020
 # COSC 2049 500
-
 
 currency_input = float(input("Enter some currency amount: "))
 dollars = int(currency_input)

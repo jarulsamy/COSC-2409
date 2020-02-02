@@ -1,3 +1,8 @@
+# Joshua Arulsamy
+# Lab 3
+# 02/02/2020
+# COSC 2049 500
+
 import math
 
 PI = 3.1416

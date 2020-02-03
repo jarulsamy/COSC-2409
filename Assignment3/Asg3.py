@@ -2,15 +2,9 @@
 # Assignment 3
 # 02/02/2020
 # COSC 2049 500
-
 import math
 
-inputs = {
-    "X1": None,
-    "Y1": None,
-    "X2": None,
-    "Y2": None
-}
+inputs = {"X1": None, "Y1": None, "X2": None, "Y2": None}
 
 for i in inputs:
     inputs[i] = float(input(f"Please enter {i}: "))

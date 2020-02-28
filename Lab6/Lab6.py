@@ -39,6 +39,10 @@ while hours_worked > 0:
     print(f"You earned ${pay}")
 
 
-print(f"Total number of employees {num_employees}")
-print(f"Total gross pay: ${total_gross_pay}")
-print(f"Average gross pay: ${round(total_gross_pay / num_employees, 2)}")
+average_gross_pay = format(round(total_gross_pay / num_employees, 2), ".2f")
+total_gross_pay = format(total_gross_pay, ".2f")
+
+print("\n")
+print(f"\tTotal number of employees {num_employees}")
+print(f"\tTotal gross pay: ${total_gross_pay}")
+print(f"\tAverage gross pay: ${average_gross_pay}")

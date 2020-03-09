@@ -56,6 +56,7 @@ while input("Roll? [Y/N] ").lower() != "n":
                 print(f"\t{ucode_dice}: {new_sum} Loss")
             elif new_sum == roll_sum:
                 done = True
+                WINS += 1
                 print(f"\t{ucode_dice}: {new_sum} Win")
             # Show the number of rerolls (debug)
             # else:

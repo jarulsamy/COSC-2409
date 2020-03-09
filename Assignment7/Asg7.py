@@ -1,6 +1,6 @@
 # Joshua Arulsamy
-# Lab 7
-# 03/06/2020
+# Assignment 7
+# 03/09/2020
 # COSC 2049 500
 import random
 

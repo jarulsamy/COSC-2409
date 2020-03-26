@@ -49,7 +49,7 @@ while not done:
     if int_plan:
         int_plan_charge = 20
         if int_min > 100:
-            int_charge = ((int_min - 100) * 0.10) + 20
+            int_charge = ((int_min - 100) * 0.10)
         else:
             int_charge = 0
     else:

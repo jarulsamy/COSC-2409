@@ -12,6 +12,7 @@ done = False
 
 rates = [24.99, 39.99, 54.99]
 free_data = [0, 1, 3]
+
 while not done:
     # Prompt the user for data
     name = input("Enter your name: ")
@@ -52,11 +53,10 @@ while not done:
     print(f"\t${format(rates[plan-1], '.2f')} (Plan: {plan})", end="")
     print(" - Base Rate Charge")
 
-    # print(f"\t{format(data, '.2f')} GB: ${data_charge} - Data Charge")
     print(f"\t${format(data_charge, '.2f')} ({format(data, '.2f')}", end="")
-    print(f"GB, ${free_data[plan-1]} GB Free.) - Data Charge")
+    print(f"GB, ${free_data[plan-1]} GB Free) - Data Charge")
 
-    print(f"\t${format(tax, '.2f')} - Tax")
+    print(f"\t${format(tax, '.2f')} - 6% Tax")
     print(f"\t${format(total, '.2f')} - Total")
 
     # Stop/Continue Loop
@@ -65,7 +65,7 @@ while not done:
         done = True
 
 # Display the totals
-print(f"\n\tTotal number of customers: {format(num_customers)}.")
-print(f"\tTotal data downloaded: {format(total_data, '.2f')} GB.")
-print(f"\tTotal taxes collected: ${format(total_taxes, '.2f')}.")
-print(f"\tTotal of all bills ${format(total_all_bills, '.2f')}.")
+print(f"\n\t{num_customers} Customer(s).")
+print(f"\t{format(total_data, '.2f')} GB downloaded.")
+print(f"\t${format(total_taxes, '.2f')} taxes collected.")
+print(f"\t${format(total_all_bills, '.2f')} total of all bills.")

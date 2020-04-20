@@ -1,5 +1,5 @@
 # Joshua Arulsamy
-# Lab 11
+# Lab 12
 # 04/10/2020
 # COSC 2049 500
 import random

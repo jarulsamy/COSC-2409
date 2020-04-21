@@ -22,8 +22,6 @@ def random_card():
     """
     suite = random.choice(SUITE)
     num = random.randint(1, 13)
-    if num > 10 or num == 1:
-        num = CARDS[num]
 
     return suite, num
 
@@ -37,11 +35,16 @@ def print_list(l: list):
     print()
 
 
-def print_list_len(l: list):
+def total(l: list):
     """
     Prints length of a given list.
     """
-    print(f"Length of list: {len(list)}.")
+    total = 0
+
+    for i in l:
+        total += i
+
+    return total
 
 
 def print_hand(cards: list, values: list):
@@ -55,9 +58,12 @@ def print_hand(cards: list, values: list):
 while not done:
     while add_cards:
         card, num = random_card()
-        print(f"You drew a {num} {card}")
         cards.append(card)
         values.append(num)
+
+        if num > 10 or num == 1:
+            num = CARDS[num]
+        print(f"You drew a {num} {card}")
 
         resp = input("Draw again? [Y/n]: ")
         if resp.lower() == "n":
@@ -73,3 +79,5 @@ while not done:
         print()
         print("Your hand:")
         print_hand(cards, values)
+        print()
+        print(f"\tTotal Value: {total(values)}")

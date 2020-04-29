@@ -1,8 +1,10 @@
 # Joshua Arulsamy
-# Lab 14
+# Assignment 14
 # 04/29/2020
 # COSC 2049 500
 #
+
+ERROR = "\tInvalid Item"
 
 with open("payData.txt", "r") as f:
     lines = f.readlines()
@@ -11,8 +13,14 @@ out_file = open("payroll.txt", "w")
 
 for i in lines:
     first, last, hours, rate = i.split()
-    hours = float(hours)
-    rate = float(rate)
+    try:
+        hours = float(hours)
+        rate = float(rate)
+    except Exception:
+        output_1 = f"{first} {last} {hours} {rate}\n"
+        out_file.writelines([output_1, ERROR])
+        out_file.close()
+        exit(-1)
 
     if hours <= 40:
         overtime_hours = 0

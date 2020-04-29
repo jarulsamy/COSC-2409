@@ -2,3 +2,11 @@ Fred Flintstone 40 25.98
 Barney Rubble 42 21.77
 42 10.50 Wilma Flintstone
 Betty Rubble 45.8
+Fred Flintstone 40 25.98
+Barney Rubble 42 21.77
+42 10.50 Wilma Flintstone
+Betty Rubble 45.8
+Fred Flintstone 40 25.98
+Barney Rubble 42 21.77
+42 10.50 Wilma Flintstone
+Betty Rubble 45.8

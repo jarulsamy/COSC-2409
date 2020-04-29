@@ -3,4 +3,22 @@ Fred Flintstone 40.00 25.98
 Barney Rubble 42.00 21.77
 	Pay for Barney Rubble: $936.11 (Overtime hours: 2.00)
 42 10.50 Wilma Flintstone
-	Invalid Item
+	 Incorrect number of items
+Betty Rubble 45.8
+	 Incorrect number of items
+Fred Flintstone 40.00 25.98
+	Pay for Fred Flintstone: $1039.20 (Overtime hours: 0.00)
+Barney Rubble 42.00 21.77
+	Pay for Barney Rubble: $936.11 (Overtime hours: 2.00)
+42 10.50 Wilma Flintstone
+	 Incorrect number of items
+Betty Rubble 45.8
+	 Incorrect number of items
+Fred Flintstone 40.00 25.98
+	Pay for Fred Flintstone: $1039.20 (Overtime hours: 0.00)
+Barney Rubble 42.00 21.77
+	Pay for Barney Rubble: $936.11 (Overtime hours: 2.00)
+42 10.50 Wilma Flintstone
+	 Incorrect number of items
+Betty Rubble 45.8
+	 Incorrect number of items

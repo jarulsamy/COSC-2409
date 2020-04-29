@@ -4,7 +4,8 @@
 # COSC 2049 500
 #
 
-ERROR = "\tInvalid Item"
+INCORRECT_NUMBER = "\t Incorrect number of items\n"
+INVALID_ITEM = "\tInvalid item\n"
 
 with open("payData.txt", "r") as f:
     lines = f.readlines()
@@ -12,15 +13,18 @@ with open("payData.txt", "r") as f:
 out_file = open("payroll.txt", "w")
 
 for i in lines:
-    first, last, hours, rate = i.split()
+    try:
+        first, last, hours, rate = i.split()
+    except ValueError:
+        out_file.writelines([i, INCORRECT_NUMBER])
+        continue
+
     try:
         hours = float(hours)
         rate = float(rate)
     except Exception:
-        output_1 = f"{first} {last} {hours} {rate}\n"
-        out_file.writelines([output_1, ERROR])
-        out_file.close()
-        exit(-1)
+        out_file.writelines([i, INCORRECT_NUMBER])
+        continue
 
     if hours <= 40:
         overtime_hours = 0

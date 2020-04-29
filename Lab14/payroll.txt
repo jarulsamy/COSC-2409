@@ -1,0 +1,6 @@
+John Doe 123.00 7.25
+	Pay for John Doe: $1192.62 (Overtime hours: 83.00
+Fred Flintstone 40.00 25.98
+	Pay for Fred Flintstone: $1039.20 (Overtime hours: 83.00
+Barney Rubble 42.00 21.77
+	Pay for Barney Rubble: $936.11 (Overtime hours: 2.00

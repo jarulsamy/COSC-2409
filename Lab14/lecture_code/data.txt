@@ -1,0 +1,3 @@
+line 1 34.89
+two, and some more...
+three 12 123.67

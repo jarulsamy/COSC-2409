@@ -1,0 +1,861 @@
+# Nmap 7.70 scan initiated Wed May 01 13:48:17 2019 as: nmap -oN ScanAll.txt -F 137.87.208.1-254 137.87.212.1-254 137.87.51.1-254
+Nmap scan report for 137.87.208.1
+Host is up (0.016s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+443/tcp open  https
+MAC Address: 00:08:E3:FF:FC:28 (Cisco Systems)
+
+Nmap scan report for 137.87.208.5
+Host is up (0.0053s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+MAC Address: 00:E1:6D:33:61:DD (Cisco Systems)
+
+Nmap scan report for 137.87.208.17
+Host is up (0.0032s latency).
+All 100 scanned ports on 137.87.208.17 are closed
+MAC Address: 00:02:D9:09:85:2C (Reliable Controls)
+
+Nmap scan report for 137.87.208.35
+Host is up (0.0035s latency).
+Not shown: 98 closed ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+5900/tcp open  vnc
+MAC Address: 00:60:9F:A3:7D:FF (Phast)
+
+Nmap scan report for 137.87.208.36
+Host is up (0.0043s latency).
+Not shown: 98 closed ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+5900/tcp open  vnc
+MAC Address: 00:60:9F:A0:9F:54 (Phast)
+
+Nmap scan report for 137.87.208.37
+Host is up (0.0034s latency).
+Not shown: 94 closed ports
+PORT     STATE    SERVICE
+80/tcp   open     http
+443/tcp  open     https
+515/tcp  open     printer
+631/tcp  open     ipp
+3000/tcp filtered ppp
+9100/tcp open     jetdirect
+MAC Address: 9C:93:4E:84:CF:B6 (Xerox)
+
+Nmap scan report for 137.87.208.41
+Host is up (0.0042s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+8888/tcp open  sun-answerbook
+9100/tcp open  jetdirect
+MAC Address: 88:51:FB:EA:71:FE (Hewlett Packard)
+
+Nmap scan report for 137.87.208.47
+Host is up (0.0045s latency).
+Not shown: 90 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+23/tcp   open  telnet
+80/tcp   open  http
+81/tcp   open  hosts2-ns
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+8888/tcp open  sun-answerbook
+9100/tcp open  jetdirect
+MAC Address: 2C:59:E5:D4:C2:B1 (Hewlett Packard)
+
+Nmap scan report for mfox10.lcccms.msft (137.87.208.142)
+Host is up (0.0010s latency).
+All 100 scanned ports on mfox10.lcccms.msft (137.87.208.142) are filtered
+MAC Address: E0:3F:49:81:1B:D3 (Asustek Computer)
+
+Nmap scan report for 137.87.208.155
+Host is up (0.0040s latency).
+All 100 scanned ports on 137.87.208.155 are filtered
+MAC Address: C0:33:5E:C7:06:42 (Microsoft)
+
+Nmap scan report for bt221-laptop.lcccms.msft (137.87.208.156)
+Host is up (0.0035s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 3C:2C:30:A8:F0:9B (Unknown)
+
+Nmap scan report for bt213-w-01-s18.lcccms.msft (137.87.208.170)
+Host is up (0.0021s latency).
+Not shown: 95 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+MAC Address: 18:31:BF:0D:3D:08 (Unknown)
+
+Nmap scan report for bt-jmcguire-d.lcccms.msft (137.87.208.177)
+Host is up (0.0017s latency).
+Not shown: 96 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 1C:87:2C:5E:55:CD (Asustek Computer)
+
+Nmap scan report for jillk-w10.lcccms.msft (137.87.208.179)
+Host is up (0.0023s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 38:D5:47:7E:92:69 (Asustek Computer)
+
+Nmap scan report for 137.87.208.189
+Host is up (0.0046s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: F8:32:E4:8C:A1:E5 (Asustek Computer)
+
+Nmap scan report for ssmith-10.lcccms.msft (137.87.208.213)
+Host is up (0.00091s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 34:E6:D7:72:58:3B (Dell)
+
+Nmap scan report for bt104.lcccms.msft (137.87.208.242)
+Host is up (0.0013s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: E0:3F:49:81:17:EB (Asustek Computer)
+
+Nmap scan report for bt216.lcccms.msft (137.87.208.252)
+Host is up (0.0012s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 00:22:4D:50:9B:E9 (Mitac International)
+
+Nmap scan report for 137.87.208.254
+Host is up (0.00019s latency).
+Not shown: 90 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+
+Nmap scan report for 137.87.212.1
+Host is up (0.0029s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+443/tcp open  https
+
+Nmap scan report for 137.87.212.25
+Host is up (0.0012s latency).
+Not shown: 94 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+23/tcp  open  telnet
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 137.87.212.26
+Host is up (0.0031s latency).
+Not shown: 98 closed ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+5900/tcp open  vnc
+
+Nmap scan report for 137.87.212.44
+Host is up (0.0013s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+23/tcp   open  telnet
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+9100/tcp open  jetdirect
+
+Nmap scan report for 137.87.212.75
+Host is up (0.0023s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+23/tcp   open  telnet
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+9100/tcp open  jetdirect
+
+Nmap scan report for 137.87.212.204
+Host is up (0.00077s latency).
+Not shown: 90 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+5357/tcp  open  wsdapi
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+
+Nmap scan report for 137.87.212.205
+Host is up (0.0042s latency).
+Not shown: 94 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+515/tcp  open  printer
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+
+Nmap scan report for 137.87.212.209
+Host is up (0.0019s latency).
+Not shown: 92 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+5357/tcp  open  wsdapi
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for 137.87.212.210
+Host is up (0.0012s latency).
+Not shown: 91 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+5357/tcp open  wsdapi
+
+Nmap scan report for 137.87.212.219
+Host is up (0.00068s latency).
+Not shown: 91 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+5357/tcp open  wsdapi
+
+Nmap scan report for 137.87.212.233
+Host is up (0.0014s latency).
+Not shown: 90 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+
+Nmap scan report for 137.87.212.235
+Host is up (0.00092s latency).
+Not shown: 90 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+5357/tcp open  wsdapi
+
+Nmap scan report for 137.87.212.238
+Host is up (0.00074s latency).
+Not shown: 90 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+5357/tcp open  wsdapi
+
+Nmap scan report for rjohnson-su15.lcccms.msft (137.87.51.2)
+Host is up (0.014s latency).
+Not shown: 97 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+49154/tcp open  unknown
+
+Nmap scan report for 137.87.51.4
+Host is up (0.21s latency).
+All 100 scanned ports on 137.87.51.4 are closed
+
+Nmap scan report for sc143-03-fa16.lcccms.msft (137.87.51.6)
+Host is up (0.0018s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.13
+Host is up (0.19s latency).
+All 100 scanned ports on 137.87.51.13 are closed
+
+Nmap scan report for 137.87.51.18
+Host is up (0.046s latency).
+All 100 scanned ports on 137.87.51.18 are closed
+
+Nmap scan report for 137.87.51.23
+Host is up (0.00092s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 137.87.51.24
+Host is up (0.060s latency).
+All 100 scanned ports on 137.87.51.24 are closed
+
+Nmap scan report for 137.87.51.32
+Host is up (0.032s latency).
+All 100 scanned ports on 137.87.51.32 are closed
+
+Nmap scan report for 137.87.51.33
+Host is up (0.12s latency).
+Not shown: 79 closed ports
+PORT      STATE    SERVICE
+26/tcp    filtered rsftp
+144/tcp   filtered news
+465/tcp   filtered smtps
+514/tcp   filtered shell
+515/tcp   filtered printer
+544/tcp   filtered kshell
+1029/tcp  filtered ms-lsa
+2001/tcp  filtered dc
+5357/tcp  filtered wsdapi
+5432/tcp  filtered postgresql
+5631/tcp  filtered pcanywheredata
+5666/tcp  filtered nrpe
+6000/tcp  filtered X11
+6646/tcp  filtered unknown
+8008/tcp  filtered http
+8009/tcp  filtered ajp13
+8081/tcp  filtered blackice-icecap
+9100/tcp  filtered jetdirect
+49153/tcp filtered unknown
+49155/tcp filtered unknown
+49157/tcp filtered unknown
+
+Nmap scan report for 137.87.51.38
+Host is up (0.028s latency).
+Not shown: 82 filtered ports
+PORT     STATE  SERVICE
+9/tcp    closed discard
+22/tcp   closed ssh
+53/tcp   closed domain
+80/tcp   closed http
+110/tcp  closed pop3
+135/tcp  closed msrpc
+139/tcp  closed netbios-ssn
+199/tcp  closed smux
+587/tcp  closed submission
+1720/tcp closed h323q931
+1900/tcp closed upnp
+2717/tcp closed pn-requester
+3306/tcp closed mysql
+3389/tcp closed ms-wbt-server
+5800/tcp closed vnc-http
+8080/tcp closed http-proxy
+8081/tcp closed blackice-icecap
+8888/tcp closed sun-answerbook
+
+Nmap scan report for ct128-ist-09.lcccms.msft (137.87.51.50)
+Host is up (0.0027s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.52
+Host is up (0.0015s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 137.87.51.54
+Host is up (0.11s latency).
+All 100 scanned ports on 137.87.51.54 are closed
+
+Nmap scan report for 137.87.51.59
+Host is up (0.0022s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 137.87.51.62
+Host is up (0.056s latency).
+All 100 scanned ports on 137.87.51.62 are closed
+
+Nmap scan report for 137.87.51.68
+Host is up (0.0030s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap scan report for 137.87.51.69
+Host is up (0.0060s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.71
+Host is up (0.029s latency).
+Not shown: 75 closed ports
+PORT      STATE    SERVICE
+13/tcp    filtered daytime
+81/tcp    filtered hosts2-ns
+106/tcp   filtered pop3pw
+427/tcp   filtered svrloc
+444/tcp   filtered snpp
+513/tcp   filtered login
+548/tcp   filtered afp
+631/tcp   filtered ipp
+646/tcp   filtered ldp
+1110/tcp  filtered nfsd-status
+1433/tcp  filtered ms-sql-s
+2049/tcp  filtered nfs
+2121/tcp  filtered ccproxy-ftp
+3128/tcp  filtered squid-http
+3986/tcp  filtered mapper-ws_ethd
+4899/tcp  filtered radmin
+5000/tcp  filtered upnp
+5009/tcp  filtered airport-admin
+5060/tcp  filtered sip
+6001/tcp  filtered X11:1
+7070/tcp  filtered realserver
+8000/tcp  filtered http-alt
+8443/tcp  filtered https-alt
+49152/tcp filtered unknown
+49154/tcp filtered unknown
+
+Nmap scan report for 137.87.51.72
+Host is up (0.27s latency).
+Not shown: 99 closed ports
+PORT     STATE    SERVICE
+2000/tcp filtered cisco-sccp
+
+Nmap scan report for sciencecart-18.lcccms.msft (137.87.51.76)
+Host is up (0.069s latency).
+All 100 scanned ports on sciencecart-18.lcccms.msft (137.87.51.76) are filtered
+
+Nmap scan report for ct128-ist-12.lcccms.msft (137.87.51.81)
+Host is up (0.0029s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.83
+Host is up (0.020s latency).
+All 100 scanned ports on 137.87.51.83 are filtered (66) or closed (34)
+
+Nmap scan report for 137.87.51.84
+Host is up (0.00022s latency).
+Not shown: 91 closed ports
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   open     ssh
+23/tcp   filtered telnet
+80/tcp   filtered http
+443/tcp  filtered https
+444/tcp  filtered snpp
+3128/tcp filtered squid-http
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 137.87.51.87
+Host is up (0.020s latency).
+Not shown: 85 closed ports
+PORT      STATE    SERVICE
+26/tcp    filtered rsftp
+179/tcp   filtered bgp
+514/tcp   filtered shell
+543/tcp   filtered klogin
+1900/tcp  filtered upnp
+2000/tcp  filtered cisco-sccp
+2717/tcp  filtered pn-requester
+3000/tcp  filtered ppp
+5190/tcp  filtered aol
+5800/tcp  filtered vnc-http
+6646/tcp  filtered unknown
+8081/tcp  filtered blackice-icecap
+9100/tcp  filtered jetdirect
+32768/tcp filtered filenet-tms
+49156/tcp filtered unknown
+
+Nmap scan report for 137.87.51.92
+Host is up (0.024s latency).
+All 100 scanned ports on 137.87.51.92 are closed
+
+Nmap scan report for 137.87.51.100
+Host is up (0.10s latency).
+All 100 scanned ports on 137.87.51.100 are closed
+
+Nmap scan report for 137.87.51.102
+Host is up (0.16s latency).
+All 100 scanned ports on 137.87.51.102 are closed
+
+Nmap scan report for mkallhoff10.lcccms.msft (137.87.51.103)
+Host is up (0.0034s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for b110-lap-win8.lcccms.msft (137.87.51.111)
+Host is up (0.0016s latency).
+Not shown: 92 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for 137.87.51.114
+Host is up (0.045s latency).
+All 100 scanned ports on 137.87.51.114 are closed
+
+Nmap scan report for librefmobile1.lcccms.msft (137.87.51.118)
+Host is up (0.041s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.120
+Host is up (0.0018s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for fewkiosk.lcccms.msft (137.87.51.121)
+Host is up (0.018s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+
+Nmap scan report for 137.87.51.127
+Host is up (0.082s latency).
+All 100 scanned ports on 137.87.51.127 are closed
+
+Nmap scan report for ct128-ist-14.lcccms.msft (137.87.51.130)
+Host is up (0.0023s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for aglap-07.lcccms.msft (137.87.51.132)
+Host is up (0.0027s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.135
+Host is up (0.0030s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.138
+Host is up (0.078s latency).
+All 100 scanned ports on 137.87.51.138 are closed (74) or filtered (26)
+
+Nmap scan report for avlaptop-04.lcccms.msft (137.87.51.141)
+Host is up (0.014s latency).
+Not shown: 87 closed ports
+PORT      STATE    SERVICE
+37/tcp    filtered time
+88/tcp    filtered kerberos-sec
+135/tcp   open     msrpc
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+465/tcp   filtered smtps
+544/tcp   filtered kshell
+3389/tcp  open     ms-wbt-server
+5051/tcp  filtered ida-agent
+5432/tcp  filtered postgresql
+5631/tcp  filtered pcanywheredata
+6000/tcp  filtered X11
+49155/tcp filtered unknown
+
+Nmap scan report for 137.87.51.148
+Host is up (0.00014s latency).
+Not shown: 91 closed ports
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   open     ssh
+23/tcp   filtered telnet
+80/tcp   filtered http
+443/tcp  filtered https
+444/tcp  filtered snpp
+3128/tcp filtered squid-http
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for 137.87.51.149
+Host is up (0.020s latency).
+All 100 scanned ports on 137.87.51.149 are closed (63) or filtered (37)
+
+Nmap scan report for sciencecart-20.lcccms.msft (137.87.51.160)
+Host is up (0.024s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for ft209s-pod.lcccms.msft (137.87.51.161)
+Host is up (0.0013s latency).
+Not shown: 96 closed ports
+PORT     STATE    SERVICE
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  open     microsoft-ds
+3389/tcp open     ms-wbt-server
+
+Nmap scan report for 137.87.51.162
+Host is up (0.052s latency).
+All 100 scanned ports on 137.87.51.162 are closed
+
+Nmap scan report for 137.87.51.166
+Host is up (0.016s latency).
+All 100 scanned ports on 137.87.51.166 are filtered
+
+Nmap scan report for 137.87.51.170
+Host is up (0.078s latency).
+All 100 scanned ports on 137.87.51.170 are closed
+
+Nmap scan report for ct128-ist-08.lcccms.msft (137.87.51.176)
+Host is up (0.0022s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.178
+Host is up (0.026s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+88/tcp  open  kerberos-sec
+445/tcp open  microsoft-ds
+548/tcp open  afp
+
+Nmap scan report for ecoxlap.lcccms.msft (137.87.51.180)
+Host is up (0.0016s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.187
+Host is up (0.061s latency).
+Not shown: 82 closed ports
+PORT      STATE    SERVICE
+37/tcp    filtered time
+88/tcp    filtered kerberos-sec
+144/tcp   filtered news
+465/tcp   filtered smtps
+515/tcp   filtered printer
+544/tcp   filtered kshell
+1029/tcp  filtered ms-lsa
+2001/tcp  filtered dc
+5051/tcp  filtered ida-agent
+5357/tcp  filtered wsdapi
+5432/tcp  filtered postgresql
+5631/tcp  filtered pcanywheredata
+6000/tcp  filtered X11
+8008/tcp  filtered http
+8009/tcp  filtered ajp13
+49153/tcp filtered unknown
+49155/tcp filtered unknown
+49157/tcp filtered unknown
+
+Nmap scan report for 137.87.51.198
+Host is up (0.11s latency).
+All 100 scanned ports on 137.87.51.198 are closed
+
+Nmap scan report for sc180-s-01-s19.lcccms.msft (137.87.51.200)
+Host is up (0.021s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for hs112-t-01-f18.lcccms.msft (137.87.51.201)
+Host is up (0.0050s latency).
+All 100 scanned ports on hs112-t-01-f18.lcccms.msft (137.87.51.201) are filtered
+
+Nmap scan report for ct128-ist-22.lcccms.msft (137.87.51.208)
+Host is up (0.0042s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.210
+Host is up (0.0012s latency).
+Not shown: 91 closed ports
+PORT     STATE    SERVICE
+21/tcp   filtered ftp
+22/tcp   open     ssh
+23/tcp   filtered telnet
+80/tcp   filtered http
+443/tcp  filtered https
+444/tcp  filtered snpp
+3128/tcp filtered squid-http
+8080/tcp filtered http-proxy
+8443/tcp filtered https-alt
+
+Nmap scan report for pr-trumpf-t.lcccms.msft (137.87.51.215)
+Host is up (0.0040s latency).
+All 100 scanned ports on pr-trumpf-t.lcccms.msft (137.87.51.215) are filtered
+
+Nmap scan report for ct128-ist-10.lcccms.msft (137.87.51.218)
+Host is up (0.0033s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 137.87.51.231
+Host is up (0.025s latency).
+All 100 scanned ports on 137.87.51.231 are closed
+
+Nmap scan report for 137.87.51.233
+Host is up (0.012s latency).
+All 100 scanned ports on 137.87.51.233 are closed (62) or filtered (38)
+
+Nmap scan report for sciencecart-17.lcccms.msft (137.87.51.234)
+Host is up (0.0030s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for pinelap.lcccms.msft (137.87.51.237)
+Host is up (0.11s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+
+Nmap scan report for 137.87.51.240
+Host is up (0.011s latency).
+Not shown: 99 closed ports
+PORT    STATE SERVICE
+631/tcp open  ipp
+
+Nmap scan report for 137.87.51.253
+Host is up (0.0014s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+# Nmap done at Wed May 01 13:58:11 2019 -- 762 IP addresses (95 hosts up) scanned in 594.89 seconds

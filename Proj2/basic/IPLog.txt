@@ -1,0 +1,95 @@
+Nmap scan report for 137.87.208.1
+Nmap scan report for 137.87.208.5
+Nmap scan report for 137.87.208.17
+Nmap scan report for 137.87.208.35
+Nmap scan report for 137.87.208.36
+Nmap scan report for 137.87.208.37
+Nmap scan report for 137.87.208.41
+Nmap scan report for 137.87.208.47
+Nmap scan report for mfox10.lcccms.msft (137.87.208.142)
+Nmap scan report for 137.87.208.155
+Nmap scan report for bt221-laptop.lcccms.msft (137.87.208.156)
+Nmap scan report for bt213-w-01-s18.lcccms.msft (137.87.208.170)
+Nmap scan report for bt-jmcguire-d.lcccms.msft (137.87.208.177)
+Nmap scan report for jillk-w10.lcccms.msft (137.87.208.179)
+Nmap scan report for 137.87.208.189
+Nmap scan report for ssmith-10.lcccms.msft (137.87.208.213)
+Nmap scan report for bt104.lcccms.msft (137.87.208.242)
+Nmap scan report for bt216.lcccms.msft (137.87.208.252)
+Nmap scan report for 137.87.208.254
+Nmap scan report for 137.87.212.1
+Nmap scan report for 137.87.212.25
+Nmap scan report for 137.87.212.26
+Nmap scan report for 137.87.212.44
+Nmap scan report for 137.87.212.75
+Nmap scan report for 137.87.212.204
+Nmap scan report for 137.87.212.205
+Nmap scan report for 137.87.212.209
+Nmap scan report for 137.87.212.210
+Nmap scan report for 137.87.212.219
+Nmap scan report for 137.87.212.233
+Nmap scan report for 137.87.212.235
+Nmap scan report for 137.87.212.238
+Nmap scan report for rjohnson-su15.lcccms.msft (137.87.51.2)
+Nmap scan report for 137.87.51.4
+Nmap scan report for sc143-03-fa16.lcccms.msft (137.87.51.6)
+Nmap scan report for 137.87.51.13
+Nmap scan report for 137.87.51.18
+Nmap scan report for 137.87.51.23
+Nmap scan report for 137.87.51.24
+Nmap scan report for 137.87.51.32
+Nmap scan report for 137.87.51.33
+Nmap scan report for 137.87.51.38
+Nmap scan report for ct128-ist-09.lcccms.msft (137.87.51.50)
+Nmap scan report for 137.87.51.52
+Nmap scan report for 137.87.51.54
+Nmap scan report for 137.87.51.59
+Nmap scan report for 137.87.51.62
+Nmap scan report for 137.87.51.68
+Nmap scan report for 137.87.51.69
+Nmap scan report for 137.87.51.71
+Nmap scan report for 137.87.51.72
+Nmap scan report for sciencecart-18.lcccms.msft (137.87.51.76)
+Nmap scan report for ct128-ist-12.lcccms.msft (137.87.51.81)
+Nmap scan report for 137.87.51.83
+Nmap scan report for 137.87.51.84
+Nmap scan report for 137.87.51.87
+Nmap scan report for 137.87.51.92
+Nmap scan report for 137.87.51.100
+Nmap scan report for 137.87.51.102
+Nmap scan report for mkallhoff10.lcccms.msft (137.87.51.103)
+Nmap scan report for b110-lap-win8.lcccms.msft (137.87.51.111)
+Nmap scan report for 137.87.51.114
+Nmap scan report for librefmobile1.lcccms.msft (137.87.51.118)
+Nmap scan report for 137.87.51.120
+Nmap scan report for fewkiosk.lcccms.msft (137.87.51.121)
+Nmap scan report for 137.87.51.127
+Nmap scan report for ct128-ist-14.lcccms.msft (137.87.51.130)
+Nmap scan report for aglap-07.lcccms.msft (137.87.51.132)
+Nmap scan report for 137.87.51.135
+Nmap scan report for 137.87.51.138
+Nmap scan report for avlaptop-04.lcccms.msft (137.87.51.141)
+Nmap scan report for 137.87.51.148
+Nmap scan report for 137.87.51.149
+Nmap scan report for sciencecart-20.lcccms.msft (137.87.51.160)
+Nmap scan report for ft209s-pod.lcccms.msft (137.87.51.161)
+Nmap scan report for 137.87.51.162
+Nmap scan report for 137.87.51.166
+Nmap scan report for 137.87.51.170
+Nmap scan report for ct128-ist-08.lcccms.msft (137.87.51.176)
+Nmap scan report for 137.87.51.178
+Nmap scan report for ecoxlap.lcccms.msft (137.87.51.180)
+Nmap scan report for 137.87.51.187
+Nmap scan report for 137.87.51.198
+Nmap scan report for sc180-s-01-s19.lcccms.msft (137.87.51.200)
+Nmap scan report for hs112-t-01-f18.lcccms.msft (137.87.51.201)
+Nmap scan report for ct128-ist-22.lcccms.msft (137.87.51.208)
+Nmap scan report for 137.87.51.210
+Nmap scan report for pr-trumpf-t.lcccms.msft (137.87.51.215)
+Nmap scan report for ct128-ist-10.lcccms.msft (137.87.51.218)
+Nmap scan report for 137.87.51.231
+Nmap scan report for 137.87.51.233
+Nmap scan report for sciencecart-17.lcccms.msft (137.87.51.234)
+Nmap scan report for pinelap.lcccms.msft (137.87.51.237)
+Nmap scan report for 137.87.51.240
+Nmap scan report for 137.87.51.253

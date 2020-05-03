@@ -1,0 +1,59 @@
+Open Ports by Port Number
+81/tcp hosts2-ns             1
+53/tcp domain                1
+49156/tcp unknown            1
+49157/tcp unknown            1
+88/tcp kerberos-sec          1
+548/tcp afp                  1
+8888/tcp sun-answerbook      2
+49152/tcp unknown            2
+5900/tcp vnc                 3
+8080/tcp http-proxy          3
+49153/tcp unknown            3
+49155/tcp unknown            3
+1029/tcp ms-lsa              3
+21/tcp ftp                   4
+49154/tcp unknown            4
+1028/tcp unknown             5
+515/tcp printer              6
+9100/tcp jetdirect           6
+1025/tcp NFS-or-IIS          6
+1026/tcp LSA-or-nterm        6
+1027/tcp IIS                 6
+80/tcp http                  7
+631/tcp ipp                  7
+23/tcp telnet                9
+5357/tcp wsdapi              10
+22/tcp ssh                   13
+443/tcp https                15
+3389/tcp ms-wbt-server       25
+139/tcp netbios-ssn          27
+135/tcp msrpc                38
+445/tcp microsoft-ds         40
+
+Open Ports by Service
+hosts2-ns                    1
+domain                       1
+kerberos-sec                 1
+afp                          1
+sun-answerbook               2
+vnc                          3
+http-proxy                   3
+ms-lsa                       3
+ftp                          4
+printer                      6
+jetdirect                    6
+NFS-or-IIS                   6
+LSA-or-nterm                 6
+IIS                          6
+http                         7
+ipp                          7
+telnet                       9
+wsdapi                       10
+ssh                          13
+https                        15
+unknown                      19
+ms-wbt-server                25
+netbios-ssn                  27
+msrpc                        38
+microsoft-ds                 40
